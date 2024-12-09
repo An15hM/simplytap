@@ -1,0 +1,56 @@
+html, body{
+    color:#131313;
+}
+.admin .edit-profile{
+    margin:0;
+}
+a:hover{
+    color: #4a4a4a;
+}
+
+.dark-trigger {
+    position: static;
+    color:#a0a0a0
+}
+.dropify-wrapper .dropify-message span.file-icon{
+    font-size: 20px;
+}
+.message-text p{
+    opacity: 0.75;
+}
+.sidebar__menu-group ul.sidebar_nav li > a.active:before{
+    border-bottom: 1px solid #131313;
+}
+.checkout-shipping-form label{
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 4px;
+}
+.form-control{
+    border-color:#cdcdcd;
+}
+.checkout-progress-indicator{
+    position: sticky;
+    top:70px;
+    padding-right: 0 !important;
+}
+.wizard10 .checkout-shipping-form{
+    padding-bottom: 30px;
+}
+[id^="step-"] {
+    display: none;
+}
+
+[id^="step-"]:first-child {
+    display: block;
+}
+.layout-dark label, .layout-dark .message-text, .layout-dark p{
+    color:#fafafa
+}
+@media only screen and (max-width:600px){
+    .edit-profile__body .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
